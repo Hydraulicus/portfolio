@@ -1,0 +1,42 @@
+  <!DOCTYPE HTML>	
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="author" content="Alexei Zababurin" />
+    <meta name="description" content=" JS. SVG. animation.  SVG-animation. "/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta property="og:title" content="Alexei Zababurin animation for electricskyco"/>
+    <meta property="og:site_name" content="Alexei Zababurin animation for electricskyco"/>
+    <meta property="og:description" content="Alexei Zababurin animation for electricskyco"/>
+    <title>Alexei Zababurin animation for electricskyco</title>
+    <link rel="stylesheet" type="text/css" href="css/animation.css">
+
+
+  </head>
+  <body class="bg">
+
+	 <div style='width:100%; max-width:1920px; margin: 1% auto'><!-- cover for SVG-animation. You can setup width, height and other CSS parameters. -->
+	 
+		<svg id="animation"  xmlns="http://www.w3.org/2000/svg" version="1.20"  xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 760 420" preserveAspectRatio="xMidYMid meet" >
+    <!-- style=' background-color: "yellow";' 760 420 -->
+
+
+		</svg>
+	 </div>
+    	
+     <script src="js/snap.svg-min.js"></script>
+     <script src="js/contours.js"></script>
+     <!-- <script src="js/functions.js"></script> -->
+     <script src="js/animation.js"></script>
+     <script type="text/javascript">
+       initAnimation({
+        blck : "#animation" // point to SVG id
+        ,rhythm : 0.05 //sec, rhythm of constant animation
+        ,firsttiming : 1.5 //sec, delay befor lamp start light
+       });
+     </script>
+  </body>
+  
+

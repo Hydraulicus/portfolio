@@ -1,0 +1,21 @@
+
+.bg { background-color: #111224; }
+.visibility_hid{
+  visibility: hidden
+}
+.whiteflag{
+  visibility: hidden
+}
+
+.neontubes {
+	fill : #334;
+	stroke : #334;
+	stroke-width : 6;
+	opacity: 0.55;
+}
+.neontubesinside {
+	fill : #fff;
+	stroke : #fff;
+	stroke-width : 0.5;
+	opacity: 0.5;
+}
